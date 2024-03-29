@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    height: 100%;
+    min-width: 100vh;
+    background-color: #010101;
+    position: relative;
+}
+
+#circle1{
+    position: relative;
+    height: 30vh;
+    width: 30vh;
+    border-radius: 50%;
+    background-image: linear-gradient(to left bottom,#8c1b97, #ca743adf);
+    display: flex;
+    transform: translate(-50%,-50%);
+    top:50% ;
+    left: 40%;
+}
+
+#circle2{
+    position: relative;
+    height: 20vh;
+    width: 20vh;
+    border-radius: 50%;
+    background-image: linear-gradient(to left bottom,#24B5D4, #065769);
+    display: flex;
+    transform: translate(-50%,-50%);
+    top:40% ;
+    left: 60%;
+}
+
+#card{
+    position: relative;
+    height: 30vh;
+    width: 50vh;
+    display: flex;
+    transform: translate(-50%,-50%);
+    top:10%;
+    left: 50%;
+    backdrop-filter: blur(30px);
+    /* opacity: 0.7; */
+    border: 1px solid white;
+    border-radius: 4vh;
+    opacity: 0.8;
+}
+
+#card #visa1{
+    position: relative;
+    font-size: 8vh;
+    left: 70%;
+    color: #fff;
+}
+
+#card #visa2{
+    position: relative;
+    font-size: 8vh;
+    left: 0%;
+    top: 30%;
+    color: #fff;
+}
+
+#card #id{
+    position: relative;
+    width: 50vh;
+    color: #fff;
+    font-size: 4vh;
+    transform: translate(-50%,-20%);
+    top:90%;
+    left: 9%;
+}
